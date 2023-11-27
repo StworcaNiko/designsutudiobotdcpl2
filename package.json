@@ -1,1 +1,12 @@
-
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord na mój serwer Design Studio",
+  "main": "server.js", // lub "server.js", zależnie od nazwy twojego pliku
+  "scripts": {
+    "start": "node server.js" // lub "node bot.js", zależnie od nazwy twojego pliku
+  },
+  "dependencies": {
+    "discord.js": "^14.19.1" // Wersja discord.js zależy od twoich preferencji
+  }
+}
